@@ -1,6 +1,14 @@
 # 验证记录
 
-交付版本：`dsh-yuyudiary 1.13.3`。
+交付版本：`dsh-yuyudiary 1.13.4`。
+
+## 1.13.4 更新脚本编码修复
+
+`scripts/update-installed.ps1` 在 Windows PowerShell 5.1 下读取 UTF-8 无 BOM 的 `package.json` 时按系统 ANSI 代码页解码，中文描述被截断成非法 JSON，`ConvertFrom-Json` 直接抛错，脚本在真正开始更新之前就中止。PowerShell 7 默认按 UTF-8 读取，因此旧环境下不易暴露。
+
+改为对 `package.json` 与 profile 清单显式使用 `-Encoding UTF8` 后，5.1 下可以正常读取版本号。`SHA256SUMS.txt` 是纯 ASCII，无需改动。
+
+验证：在 5.1 中解压发布包并复制为独立目录，`-CheckOnly` 报告已是最新；替换 `core.js` 后重跑能报出一个待更新文件；脚本自身的发布哈希随之更新。其余逻辑、运行时代码与界面未改动。
 
 ## 1.13.3 上传 GitHub
 

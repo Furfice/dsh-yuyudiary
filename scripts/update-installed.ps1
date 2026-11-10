@@ -31,7 +31,7 @@ if (-not $TargetDirectory) {
   $profileManifest = Join-Path $profileDirectory 'package.json'
   $candidates = @()
   if (Test-Path -LiteralPath $profileManifest -PathType Leaf) {
-    $profileConfig = Get-Content -LiteralPath $profileManifest -Raw | ConvertFrom-Json
+    $profileConfig = Get-Content -LiteralPath $profileManifest -Raw -Encoding UTF8 | ConvertFrom-Json
     foreach ($packageName in @('dsh-yuyudiary', 'dsh-yuyu-diary')) {
       $spec = $profileConfig.dependencies.$packageName
       if (-not $spec -and $packageName -notin @($profileConfig.dsh.profile.bundles)) { continue }
@@ -61,8 +61,8 @@ if (-not $TargetDirectory) {
 $target = Resolve-PluginDirectory $TargetDirectory
 Write-Output "Installed plugin directory: $target"
 if (-not (Test-Path -LiteralPath (Join-Path $target 'package.json') -PathType Leaf)) { throw 'Installed plugin not found; this updater only updates an existing installation.' }
-$manifest = Get-Content -LiteralPath (Join-Path $source 'package.json') -Raw | ConvertFrom-Json
-$installed = Get-Content -LiteralPath (Join-Path $target 'package.json') -Raw | ConvertFrom-Json
+$manifest = Get-Content -LiteralPath (Join-Path $source 'package.json') -Raw -Encoding UTF8 | ConvertFrom-Json
+$installed = Get-Content -LiteralPath (Join-Path $target 'package.json') -Raw -Encoding UTF8 | ConvertFrom-Json
 $legacyRename = $RenameLegacyPackage -and $installed.name -eq 'dsh-yuyu-diary'
 if ($manifest.name -ne 'dsh-yuyudiary' -or ($installed.name -ne $manifest.name -and -not $legacyRename)) { throw 'Wrong package directory.' }
 if ($source -eq $target) { Write-Output 'Source and installed directory are identical; restart DSH to reload.'; return }

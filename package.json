@@ -1,6 +1,6 @@
 {
   "name": "dsh-yuyudiary",
-  "version": "1.13.3",
+  "version": "1.13.4",
   "description": "鱼鱼日记：每天把 DeepSeek Harness 的真实任务写成一本有手绘风格涂鸦的日记。",
   "author": { "name": "Furfice", "url": "https://github.com/Furfice" },
   "repository": { "type": "git", "url": "git+https://github.com/Furfice/dsh-yuyudiary.git" },

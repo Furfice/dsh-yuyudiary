@@ -1,6 +1,6 @@
 # 鱼鱼日记
 
-给 DeepSeek Harness 的大肥鱼一本日记：正文从左页开始，写满后接到右页，日记结束后放一张手绘风格涂鸦。插件包名 `dsh-yuyudiary`，版本 `1.13.3`；插件管理列表、详情页和组件标题显示 `dsh-yuyudiary`，日记页面和侧栏显示「鱼鱼日记」。这是独立的社区插件。
+给 DeepSeek Harness 的大肥鱼一本日记：正文从左页开始，写满后接到右页，日记结束后放一张手绘风格涂鸦。插件包名 `dsh-yuyudiary`，版本 `1.13.4`；插件管理列表、详情页和组件标题显示 `dsh-yuyudiary`，日记页面和侧栏显示「鱼鱼日记」。这是独立的社区插件。
 
 项目主页：[Furfice/dsh-yuyudiary](https://github.com/Furfice/dsh-yuyudiary)；问题反馈：[Issues](https://github.com/Furfice/dsh-yuyudiary/issues)。
 
