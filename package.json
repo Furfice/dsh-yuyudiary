@@ -1,0 +1,30 @@
+{
+  "name": "dsh-yuyudiary",
+  "version": "1.13.2",
+  "description": "鱼鱼日记：每天把 DeepSeek Harness 的真实任务写成一本有手绘风格涂鸦的日记。",
+  "author": { "name": "Furfice", "url": "https://github.com/Furfice" },
+  "repository": { "type": "git", "url": "git+https://github.com/Furfice/dsh-yuyudiary.git" },
+  "homepage": "https://github.com/Furfice/dsh-yuyudiary#readme",
+  "bugs": { "url": "https://github.com/Furfice/dsh-yuyudiary/issues" },
+  "license": "SEE LICENSE IN LICENSE",
+  "private": true,
+  "keywords": ["dsh-plugin", "deepseek-harness", "diary", "yuyudiary", "鱼鱼日记"],
+  "type": "module",
+  "exports": { ".": "./index.js", "./client": "./client.js", "./locale/*.json": "./locale/*.json", "./icon": "./icon.svg" },
+  "files": ["index.js", "core.js", "doodles.js", "ui-model.js", "persona.js", "storage.js", "engine.js", "generation.js", "data-location.js", "client.js", "client.template.js", "diary.css", "assets/", "locale/", "icon.svg", "cordis.patch.yml", "README.md", "PERSONA.md", "IMAGE-PROMPT.md", "VERIFICATION.md", "THIRD_PARTY_NOTICES.md", "LICENSE", "SHA256SUMS.txt", "scripts/", "tests/"],
+  "scripts": { "test": "node --test tests/*.test.mjs", "build": "node scripts/build.mjs", "check": "node --check index.js && node --check client.js && node --test tests/*.test.mjs" },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "*",
+    "@deepseek-ai/schemastery": "*",
+    "@deepseek-ai/dsh-typert-protocol": "*"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/cordis": { "optional": true },
+    "@deepseek-ai/schemastery": { "optional": true },
+    "@deepseek-ai/dsh-typert-protocol": { "optional": true }
+  },
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": { "platform": "web", "immediately": true, "inject": ["@deepseek-ai/dsh-client-connection", "@deepseek-ai/dsh-client-locale", "@deepseek-ai/dsh-client-ui-layout", "@deepseek-ai/dsh-client-ui-sidebar", "@deepseek-ai/dsh-client-ui-workspace"] }
+  }
+}

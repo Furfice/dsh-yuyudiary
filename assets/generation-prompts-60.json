@@ -1,0 +1,93 @@
+{
+  "tool": "image_gen (built-in)",
+  "transparent_background": true,
+  "references": [
+    "assets/yuyu-doodles.png"
+  ],
+  "atlases": [
+    {
+      "file": "yuyu-doodles-treats.png",
+      "theme": "厨房与小点心",
+      "labels": [
+        "擀面团",
+        "捏饭团",
+        "翻煎饼",
+        "吃西瓜",
+        "草莓蛋糕",
+        "倒花茶"
+      ],
+      "scenes": "1. Rolling a small piece of dough with a wooden rolling pin, concentrating. 2. Shaping a triangular rice ball with both hands, proud and careful. 3. Flipping one tiny pancake above a little frying pan, surprised but confident. 4. Taking a happy little bite from a slice of watermelon. 5. Holding a small plate with a slice of strawberry shortcake, eyes sparkling. 6. Carefully pouring flower tea from a tiny teapot into a small cup.",
+      "prompt": "Use case: illustration-story. Create ONE new transparent PNG doodle atlas with exactly 3 columns and 2 rows, six distinct scenes.\nReference image 1 defines the SAME blue-haired whale girl: long blue hair, blue eyes, white maid headband, little blue bows, navy-and-white frilled maid dress, whale emblem apron, whale-tail hair detail. Keep her clothes and identity consistent in every scene.\nReference image 2 defines the existing diary's delicate colored-pencil style: chibi proportions, textured pencil hatching, periwinkle/navy lines, small warm blush, soft expression and modest pastel accent colors. Match that hand-drawn style.\nEach equal grid cell contains one whole self-contained character vignette. Center each vignette with generous transparent padding on ALL four sides; no prop or hair may cross a cell boundary. True transparent background with alpha, including all spaces between vignettes. No solid background, no checkerboard painted in, no grid lines, borders, text, lettering or watermark. No realistic scenery. The character and small props should be the only artwork. Output one square atlas, six equally sized cells.\nUse the following NEW scenes in row-major order, top-left to bottom-right:\n1. Rolling a small piece of dough with a wooden rolling pin, concentrating. 2. Shaping a triangular rice ball with both hands, proud and careful. 3. Flipping one tiny pancake above a little frying pan, surprised but confident. 4. Taking a happy little bite from a slice of watermelon. 5. Holding a small plate with a slice of strawberry shortcake, eyes sparkling. 6. Carefully pouring flower tea from a tiny teapot into a small cup."
+    },
+    {
+      "file": "yuyu-doodles-crafts.png",
+      "theme": "手作时光",
+      "labels": [
+        "画水彩",
+        "织围巾",
+        "绣星星",
+        "贴手账",
+        "系礼物丝带",
+        "折纸鹤"
+      ],
+      "scenes": "1. Painting with a little watercolor palette and brush, with one small blank canvas. 2. Knitting a tiny pale-blue scarf with two knitting needles. 3. Embroidering a star on a small round embroidery hoop. 4. Decorating an open scrapbook with one whale sticker and a strip of washi tape, no writing. 5. Tying a bow around a small gift box. 6. Finishing a paper crane and balancing it gently on her palm.",
+      "prompt": "Use case: illustration-story. Create ONE new transparent PNG doodle atlas with exactly 3 columns and 2 rows, six distinct scenes.\nReference image 1 defines the SAME blue-haired whale girl: long blue hair, blue eyes, white maid headband, little blue bows, navy-and-white frilled maid dress, whale emblem apron, whale-tail hair detail. Keep her clothes and identity consistent in every scene.\nReference image 2 defines the existing diary's delicate colored-pencil style: chibi proportions, textured pencil hatching, periwinkle/navy lines, small warm blush, soft expression and modest pastel accent colors. Match that hand-drawn style.\nEach equal grid cell contains one whole self-contained character vignette. Center each vignette with generous transparent padding on ALL four sides; no prop or hair may cross a cell boundary. True transparent background with alpha, including all spaces between vignettes. No solid background, no checkerboard painted in, no grid lines, borders, text, lettering or watermark. No realistic scenery. The character and small props should be the only artwork. Output one square atlas, six equally sized cells.\nUse the following NEW scenes in row-major order, top-left to bottom-right:\n1. Painting with a little watercolor palette and brush, with one small blank canvas. 2. Knitting a tiny pale-blue scarf with two knitting needles. 3. Embroidering a star on a small round embroidery hoop. 4. Decorating an open scrapbook with one whale sticker and a strip of washi tape, no writing. 5. Tying a bow around a small gift box. 6. Finishing a paper crane and balancing it gently on her palm."
+    },
+    {
+      "file": "yuyu-doodles-outdoors.png",
+      "theme": "出门吹吹风",
+      "labels": [
+        "骑小车",
+        "提野餐篮",
+        "看蝴蝶",
+        "吹泡泡",
+        "堆雪人",
+        "捡贝壳"
+      ],
+      "scenes": "1. Riding a very small bicycle, the entire bicycle fits in the cell. 2. Carrying a tiny gingham-lined picnic basket, walking happily. 3. Holding out a finger toward one butterfly perched nearby, quietly curious. 4. Blowing two soap bubbles with a small bubble wand. 5. Adding a tiny hat to a small snowman beside her, with a short scarf over the same maid outfit. 6. Kneeling and picking up one pretty seashell, no beach scenery.",
+      "prompt": "Use case: illustration-story. Create ONE new transparent PNG doodle atlas with exactly 3 columns and 2 rows, six distinct scenes.\nReference image 1 defines the SAME blue-haired whale girl: long blue hair, blue eyes, white maid headband, little blue bows, navy-and-white frilled maid dress, whale emblem apron, whale-tail hair detail. Keep her clothes and identity consistent in every scene.\nReference image 2 defines the existing diary's delicate colored-pencil style: chibi proportions, textured pencil hatching, periwinkle/navy lines, small warm blush, soft expression and modest pastel accent colors. Match that hand-drawn style.\nEach equal grid cell contains one whole self-contained character vignette. Center each vignette with generous transparent padding on ALL four sides; no prop or hair may cross a cell boundary. True transparent background with alpha, including all spaces between vignettes. No solid background, no checkerboard painted in, no grid lines, borders, text, lettering or watermark. No realistic scenery. The character and small props should be the only artwork. Output one square atlas, six equally sized cells.\nUse the following NEW scenes in row-major order, top-left to bottom-right:\n1. Riding a very small bicycle, the entire bicycle fits in the cell. 2. Carrying a tiny gingham-lined picnic basket, walking happily. 3. Holding out a finger toward one butterfly perched nearby, quietly curious. 4. Blowing two soap bubbles with a small bubble wand. 5. Adding a tiny hat to a small snowman beside her, with a short scarf over the same maid outfit. 6. Kneeling and picking up one pretty seashell, no beach scenery."
+    },
+    {
+      "file": "yuyu-doodles-play.png",
+      "theme": "玩一会儿",
+      "labels": [
+        "玩手柄",
+        "摇铃鼓",
+        "戴纸王冠",
+        "放纸飞机",
+        "想棋局",
+        "转小风车"
+      ],
+      "scenes": "1. Holding a game controller, leaning forward with a determined playful face. 2. Shaking a little tambourine with eyes closed and a cheerful smile. 3. Wearing a small handmade paper crown over her maid headband, pretending to be very regal. 4. Preparing to launch a little paper airplane, full plane inside the cell. 5. Studying a single oversized toy chess knight on a tiny chessboard, one hand at her chin. 6. Holding a colorful small pinwheel, gently puffing her cheeks to blow it.",
+      "prompt": "Use case: illustration-story. Create ONE new transparent PNG doodle atlas with exactly 3 columns and 2 rows, six distinct scenes.\nReference image 1 defines the SAME blue-haired whale girl: long blue hair, blue eyes, white maid headband, little blue bows, navy-and-white frilled maid dress, whale emblem apron, whale-tail hair detail. Keep her clothes and identity consistent in every scene.\nReference image 2 defines the existing diary's delicate colored-pencil style: chibi proportions, textured pencil hatching, periwinkle/navy lines, small warm blush, soft expression and modest pastel accent colors. Match that hand-drawn style.\nEach equal grid cell contains one whole self-contained character vignette. Center each vignette with generous transparent padding on ALL four sides; no prop or hair may cross a cell boundary. True transparent background with alpha, including all spaces between vignettes. No solid background, no checkerboard painted in, no grid lines, borders, text, lettering or watermark. No realistic scenery. The character and small props should be the only artwork. Output one square atlas, six equally sized cells.\nUse the following NEW scenes in row-major order, top-left to bottom-right:\n1. Holding a game controller, leaning forward with a determined playful face. 2. Shaking a little tambourine with eyes closed and a cheerful smile. 3. Wearing a small handmade paper crown over her maid headband, pretending to be very regal. 4. Preparing to launch a little paper airplane, full plane inside the cell. 5. Studying a single oversized toy chess knight on a tiny chessboard, one hand at her chin. 6. Holding a colorful small pinwheel, gently puffing her cheeks to blow it."
+    },
+    {
+      "file": "yuyu-doodles-moods.png",
+      "theme": "鲸鱼的小情绪",
+      "labels": [
+        "伸懒腰",
+        "鼓脸颊",
+        "拆惊喜信",
+        "害羞捧花",
+        "挽袖加油",
+        "探头看你"
+      ],
+      "scenes": "1. Stretching both arms upward with a little sleepy yawn, awake, no bed. 2. Arms crossed and cheeks puffed in harmless mock annoyance, cute rather than angry. 3. Opening a small envelope and finding a tiny heart-shaped card, pleasantly surprised, no writing. 4. Holding a small bouquet near her cheeks, shy smile and rosy blush. 5. Resolutely rolling up one sleeve as if ready to tackle a tricky job, eyebrows focused. 6. Peeking playfully from behind a small vertical wooden panel, only a small prop panel, not a room.",
+      "prompt": "Use case: illustration-story. Create ONE new transparent PNG doodle atlas with exactly 3 columns and 2 rows, six distinct scenes.\nReference image 1 defines the SAME blue-haired whale girl: long blue hair, blue eyes, white maid headband, little blue bows, navy-and-white frilled maid dress, whale emblem apron, whale-tail hair detail. Keep her clothes and identity consistent in every scene.\nReference image 2 defines the existing diary's delicate colored-pencil style: chibi proportions, textured pencil hatching, periwinkle/navy lines, small warm blush, soft expression and modest pastel accent colors. Match that hand-drawn style.\nEach equal grid cell contains one whole self-contained character vignette. Center each vignette with generous transparent padding on ALL four sides; no prop or hair may cross a cell boundary. True transparent background with alpha, including all spaces between vignettes. No solid background, no checkerboard painted in, no grid lines, borders, text, lettering or watermark. No realistic scenery. The character and small props should be the only artwork. Output one square atlas, six equally sized cells.\nUse the following NEW scenes in row-major order, top-left to bottom-right:\n1. Stretching both arms upward with a little sleepy yawn, awake, no bed. 2. Arms crossed and cheeks puffed in harmless mock annoyance, cute rather than angry. 3. Opening a small envelope and finding a tiny heart-shaped card, pleasantly surprised, no writing. 4. Holding a small bouquet near her cheeks, shy smile and rosy blush. 5. Resolutely rolling up one sleeve as if ready to tackle a tricky job, eyebrows focused. 6. Peeking playfully from behind a small vertical wooden panel, only a small prop panel, not a room."
+    },
+    {
+      "file": "yuyu-doodles-dreams.png",
+      "theme": "蓝色小幻想",
+      "labels": [
+        "坐月亮",
+        "抱海洋瓶",
+        "钓玩具鱼",
+        "坐游泳圈",
+        "抛小星星",
+        "看沙漏"
+      ],
+      "scenes": "1. Sitting on a tiny crescent-moon cushion, dangling her feet and smiling. 2. Hugging a sealed glass bottle containing a miniature blue ocean and tiny whale. 3. Fishing for one toy fish with a short toy fishing rod, no water scene. 4. Sitting fully dressed in a small whale-shaped inflatable swim ring, feet dangling, no pool or water background. 5. Playfully juggling three small golden stars close to her hands. 6. Holding a small hourglass and watching the sand with a thoughtful expression.",
+      "prompt": "Use case: illustration-story. Create ONE new transparent PNG doodle atlas with exactly 3 columns and 2 rows, six distinct scenes.\nReference image 1 defines the SAME blue-haired whale girl: long blue hair, blue eyes, white maid headband, little blue bows, navy-and-white frilled maid dress, whale emblem apron, whale-tail hair detail. Keep her clothes and identity consistent in every scene.\nReference image 2 defines the existing diary's delicate colored-pencil style: chibi proportions, textured pencil hatching, periwinkle/navy lines, small warm blush, soft expression and modest pastel accent colors. Match that hand-drawn style.\nEach equal grid cell contains one whole self-contained character vignette. Center each vignette with generous transparent padding on ALL four sides; no prop or hair may cross a cell boundary. True transparent background with alpha, including all spaces between vignettes. No solid background, no checkerboard painted in, no grid lines, borders, text, lettering or watermark. No realistic scenery. The character and small props should be the only artwork. Output one square atlas, six equally sized cells.\nUse the following NEW scenes in row-major order, top-left to bottom-right:\n1. Sitting on a tiny crescent-moon cushion, dangling her feet and smiling. 2. Hugging a sealed glass bottle containing a miniature blue ocean and tiny whale. 3. Fishing for one toy fish with a short toy fishing rod, no water scene. 4. Sitting fully dressed in a small whale-shaped inflatable swim ring, feet dangling, no pool or water background. 5. Playfully juggling three small golden stars close to her hands. 6. Holding a small hourglass and watching the sand with a thoughtful expression."
+    }
+  ]
+}

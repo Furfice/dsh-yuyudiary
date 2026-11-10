@@ -1,0 +1,8 @@
+- insert:
+    - id: yuyu-diary
+      name: dsh-yuyudiary
+      config:
+        timezone: Asia/Shanghai
+        pollSeconds: 60
+        midnightGraceMinutes: 3
+        maxEntriesPerPass: 7
