@@ -1,6 +1,8 @@
 # 鱼鱼日记
 
-给 DeepSeek Harness 的大肥鱼一本日记：正文从左页开始，写满后接到右页，日记结束后放一张手绘风格涂鸦。插件包名 `dsh-yuyudiary`，版本 `1.13.2`；插件管理列表、详情页和组件标题显示 `dsh-yuyudiary`，日记页面和侧栏显示「鱼鱼日记」。这是独立的社区插件。
+给 DeepSeek Harness 的大肥鱼一本日记：正文从左页开始，写满后接到右页，日记结束后放一张手绘风格涂鸦。插件包名 `dsh-yuyudiary`，版本 `1.13.3`；插件管理列表、详情页和组件标题显示 `dsh-yuyudiary`，日记页面和侧栏显示「鱼鱼日记」。这是独立的社区插件。
+
+项目主页：[Furfice/dsh-yuyudiary](https://github.com/Furfice/dsh-yuyudiary)；问题反馈：[Issues](https://github.com/Furfice/dsh-yuyudiary/issues)。
 
 ![鱼鱼日记界面：双页日记、书签与手绘风格涂鸦](assets/diary-preview.png)
 
@@ -167,6 +169,6 @@ node --test tests/*.test.mjs
 
 目前采用本地安装与 ZIP 分享方式，暂不发布到 npm。包内保留 `private: true`，阻止误执行 `npm publish`，并且不设置 npm 公开发布目标；这不影响本地安装、ZIP 分享或上传 GitHub。代码许可证与选择哪个发布平台无关。以后决定发布到 npm 时，再单独调整这一开关。
 
-本项目的 GitHub 发布目标为 [Furfice/dsh-yuyudiary](https://github.com/Furfice/dsh-yuyudiary)，问题反馈地址为该仓库的 Issues。包元数据已按这个发布目标填写；这些链接不表示本地文件已经上传成功。仓库发布时添加 `dsh-plugin` 话题。
+本项目的 GitHub 仓库为 [Furfice/dsh-yuyudiary](https://github.com/Furfice/dsh-yuyudiary)，问题反馈地址为该仓库的 Issues。仓库已创建并上传源码，默认分支 `main`，`dsh-plugin` 话题已添加；包元数据中的仓库、主页和反馈链接与之一致。后续更新仍需自行推送，仓库内容不会随本地修改自动同步。
 
 发布前从完整发布目录运行 `npm pack --dry-run --json --ignore-scripts`，核对实际文件清单；这个命令只检查本地打包，不会上传。npm 使用 `files` 白名单，ZIP 分享包也只应包含程序、文档和内置素材。不要把日记数据、备份、写入锁、profile 配置、访问令牌或 `node_modules` 加入分享包。程序不会因为上传、打包或安装而附带你已经写过的日记。
